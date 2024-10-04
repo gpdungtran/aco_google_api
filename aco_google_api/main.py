@@ -7,7 +7,7 @@ app = Flask(__name__)
 def optimize():
     data = request.get_json()
 
-    ### place_addresses is a list of location
+    # place_addresses is a list of location
     place_addresses = data.get('place_addresses')
     mode = data.get('mode')
     
